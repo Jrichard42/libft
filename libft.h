@@ -6,7 +6,7 @@
 /*   By: jrichard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 10:45:33 by jrichard          #+#    #+#             */
-/*   Updated: 2017/04/11 22:16:39 by jrichard         ###   ########.fr       */
+/*   Updated: 2017/04/11 22:23:54 by jrichard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,6 +86,7 @@ char			*ft_strctrim(char const *s, char c);
 char			**ft_strsplit(char const *s, char c);
 void			*ft_realloc(void *ptr, size_t size);
 char			*ft_itoa(int n);
+char			*ft_ltoa(long long n);
 void			ft_putchar(char c);
 void			ft_putstr(char const *s);
 void			ft_putendl(char const *s);
