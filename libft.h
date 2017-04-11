@@ -6,7 +6,7 @@
 /*   By: jrichard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 10:45:33 by jrichard          #+#    #+#             */
-/*   Updated: 2017/04/11 22:23:54 by jrichard         ###   ########.fr       */
+/*   Updated: 2017/04/11 22:41:59 by jrichard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,5 +109,6 @@ t_list			*ft_lstsearch(t_list *lst, int (*f)(t_list *elem, void *data),
 int				ft_lstsize(t_list *lst);
 void			*ft_error(char *s);
 char			*ft_itoa_base(int nb, int base, char notation);
+char			*ft_ltoa_base(long long nb, int base, char notation);
 
 #endif
